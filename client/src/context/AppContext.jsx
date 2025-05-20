@@ -62,7 +62,7 @@ export const AppContextProvider  =  (props)=>{
 
     useEffect(()=>{
         fetchAllCourses()
-        fetchUserEnrolledCourses
+        fetchUserEnrolledCourses()
     },[])
     const value = {
         currency , allCourses , navigate , calculateRating , isEducator , setIsEducator ,calculateNoOfLectures , calculateCourseDuration , calculateChapterTime ,enrolledCourses , fetchUserEnrolledCourses

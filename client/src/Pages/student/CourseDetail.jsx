@@ -32,8 +32,8 @@ const CourseDetail = () => {
   const togglesection = (index) => {
     setOpenSections((prev) => (
       { ...prev, [index]: !prev[index] }
-    ))
-  }
+    ));
+  };
 
   return courseData ? (
     <>
